@@ -1,0 +1,533 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.main {
+  width: 1600px;
+  height: 750px;
+  position: relative;
+  background-image: url('../img/bg-pasta.jpg');
+}
+.logo {
+  
+}
+.logo-text {
+  position: absolute;
+  color: #ffffff;
+  filter: invert(1);
+  top: 47px;
+  left: 179px;
+}
+
+.logo-image {
+  position: absolute;
+  color: #ffffff;
+  filter: invert(1);
+  top: 8px;
+  left: 195px;
+}
+
+.logo ul {
+  display: block;
+  padding-top: 51px;
+  padding-bottom: 87px;
+  margin-left: 574px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  width: 955px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: YesevaOne;
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0px 1px 2px rgba(1, 1, 1, 0.64);
+}
+
+.main p {
+  text-align: center;
+}
+
+.divider {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.btn {
+  border-width: 1px;
+  border-style: solid;
+  width: 226px;
+  height: 55px;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px; 
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-book {  
+  border-color: #000000; 
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.8;
+  
+}
+
+.btn-menu {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.28);
+  opacity: 0.7;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content-block {
+  padding-left: 294px;
+  padding-right: 240px;
+  text-align: center;
+  background-image: url('../img/pattern-content.jpg');
+ 
+}
+
+.dish {
+  margin-top: 55px;
+  display: block;
+  float: right;
+}
+
+.content-block h2 {
+  padding-top: 106px;
+  font-family: YesevaOne;
+  color: #cc9900;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.content-block p {
+  display: block;
+  width: 409px;
+  font-family: Lato;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cook {
+  margin-top: 52px;
+}
+
+.ingridients {
+  width: 1600px;
+  height: 658px;
+  padding-top: 100px;
+  background-image: url('../img/bg-basil.jpg');
+}
+
+.ingridients-block {
+  width: 409px;
+  margin-left: 815px;
+  padding: 83px 81px 83px 80px;
+  border-width: 0.060000000000000005px;
+  border-color:  #fbf7c0;
+  border-style: solid;
+  background-color:  #000000;
+  opacity: 0.67;
+}
+
+.divider-ingredients {
+  margin-top: 16px;
+  margin-bottom: 30px;
+  
+}
+
+.ingridients-block h2 {
+  font-family: YesevaOne;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ingridients-block p {
+  margin: 0;
+  padding: 0;
+  /*width: 409px;*/
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.ingridients-block ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ingridients-block li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.ingridients-block li:last-child {
+  margin-right: 0;
+
+}
+
+.wheat {
+  width: 110px;
+  height: 110px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-ingridients.png') 
+
+}
+.paprica {
+  width: 110px;
+  height: 110px;
+  background-position: 110px 0;
+  background-image: url('../img/sprite-ingridients.png') 
+
+}
+.bread {
+  width: 110px;
+  height: 110px;
+  background-position: 252px 0;
+  background-image: url('../img/sprite-ingridients.png') 
+
+}
+
+.food-menu {
+  text-align: center;
+  margin: 0 auto;
+  background-image: url('../img/pattern-menu.jpg') 
+}
+
+.left-collum {
+  float: left;
+  width: 431px;
+  padding: 107px 84px 98px 84px;
+  margin-left: 199px
+}
+
+.right-collum {
+  float: right;
+  width: 431px;
+  padding: 107px 84px 98px 84px;
+  margin-right: 202px;
+}
+
+.food-menu h2 {
+  font-family: YesevaOne;
+  color: #cc9900;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/*
+.food-menu p {
+  text-align: justify;
+}
+
+.food-menu p:before {
+  content: "";
+  display: block;
+  width: 100%;
+
+}
+.food-menu p:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}*/
+.food-menu p {
+  font-family: Lato;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.name-left {
+  float: left;
+  font-family: YesevaOne;
+  color: #c89f2d;
+  font-size: 21px; 
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.price-right {
+  float: right;
+  font-family: YesevaOne;
+  color: #c89f2d;
+  font-size: 21px; 
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.reviews {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 101px;
+  background-image: url('../img/bg-barbecue.jpg') 
+}
+
+.reviews-block {
+  width: 602px;
+  
+  padding: 82px 84px 103px 84px;
+  margin: 0 auto;
+  border-width: 0.060000000000000005px;
+  border-color: #fbf7c0;
+  border-style: solid;
+  background-color: #000000;
+  opacity: 0.8;
+  
+}
+
+.reviews-block h2 {
+  margin: 0;
+  padding: 0;
+  font-family: YesevaOne;
+  color: #ffffff;
+  font-size: 36px; 
+  font-weight: 400;
+  text-align: center;
+}
+
+.divider-reviews {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.reviews-block p {
+  margin: 0;
+  padding: 0;
+  font-family: GentiumBookBasic;
+  color: #dee0e0;
+  font-size: 25px; 
+  font-weight: 700;
+  line-height: 45px; 
+  text-align: center;
+}
+
+.reviews-right {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px; 
+  font-weight: 400;
+  line-height: 45px; 
+  text-align: center;
+}
+
+.reservation {
+  margin: 0 auto;
+  padding: 100px 355px 101px 215px;
+  background-image: url('../img/pattern-reservation.jpg') 
+}
+
+.reservation-block-right {
+  float: right;
+  width: 417px;
+  text-align: center;
+}
+
+.reservation-block-right h2 {
+  margin: 0;
+  padding: 0;
+  font-family: YesevaOne;
+  color: #cc9900;
+  font-size: 36px; 
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: center;
+}
+
+.divider-reservation {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.reservation-block-right p {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: center;
+}
+
+label {
+  display: block;
+  float: left;
+  width: 50%;
+  font-family: OpenSans;
+  color: #c9a131;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+
+input {
+  border-width: 1px;
+  border-color: #c8c6c6;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 198px;
+  height: 34px;
+}
+
+input:focus {
+  border-width: 1px;
+  border-color: #c89f2d;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 198px;
+  height: 34px;
+}
+
+label:nth-child(1),
+label:nth-child(2){
+  margin-top: 46px;
+}
+label:nth-child(3),
+label:nth-child(4){
+  margin-top: 29px;
+}
+
+
+input[type="date"] {
+  background: url('../img/calendar.png') no-repeat;
+  background-position: 1px 1px;
+}
+
+.btn-reservation {
+  margin-top: 33px;
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border-width: 1px;
+  border-color: #c89f2d;
+  border-style: solid;
+  background-color: rgba(200, 159, 45, 0.98);
+  width: 198px;
+  height: 34px;
+}
+
+input::-webkit-input-placeholder {
+  margin-left: 16px;
+  font-family: OpenSans;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+
+input::-moz-placeholder {
+  margin-left: 16px;
+  font-family: OpenSans;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+input:-moz-input-placeholder {
+  margin-left: 16px;
+  font-family: OpenSans;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+input:-ms-input-placeholder {
+  margin-left: 16px;
+  font-family: OpenSans;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height: 35px;
+  padding-left: 18px; 
+  width: 257px;
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #484848;
+  background: linear-gradient(to top, #0e0e0e, #111111);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background: #1b5288;
+  border-bottom: 1px solid #1f5384;
+  -webkit-box-shadow: 0px 0px 32px 2px rgba(66,125,166,1);
+  -moz-box-shadow: 0px 0px 32px 2px rgba(66,125,166,1);
+  box-shadow: 0px 0px 32px 2px rgba(66,125,166,1);
+  
+}
+
+*/
