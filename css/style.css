@@ -19,9 +19,7 @@ section {
   position: relative;
   background-image: url('../img/bg-pasta.jpg');
 }
-.logo {
-  
-}
+
 .logo-text {
   position: absolute;
   color: #ffffff;
@@ -45,13 +43,44 @@ section {
   margin-left: 574px;
 }
 
-li {
+.logo li {
+  padding: 0 12px 0 12px;
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
+  font-family: GentiumBookBasic, Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px; 
+  font-weight: 700;
+  text-align: justify;
 }
 
-li a {
+.logo .social-btn {
+  padding: 0;
+  margin: 0 5px 0 5px;
+}
+
+.nav-twitter {
+  width: 21px;
+  height: 18px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-social.png');
+}
+
+.nav-youtube {
+  width: 21px;
+  height: 18px;
+  background-position: -34px 0;
+  background-image: url('../img/sprite-social.png');
+}
+
+.nav-fb {
+  width: 21px;
+  height: 18px;
+  background-position: -62px 0;
+  background-image: url('../img/sprite-social.png');
+}
+
+.logo a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -150,8 +179,8 @@ h1 {
 
 .ingridients {
   width: 1600px;
-  height: 658px;
-  padding-top: 100px;
+  
+  padding: 100px 0 97px 0;
   background-image: url('../img/bg-basil.jpg');
 }
 
@@ -159,20 +188,19 @@ h1 {
   width: 409px;
   margin-left: 815px;
   padding: 83px 81px 83px 80px;
-  border-width: 0.060000000000000005px;
-  border-color:  #fbf7c0;
-  border-style: solid;
   background-color:  #000000;
   opacity: 0.67;
 }
 
 .divider-ingredients {
-  margin-top: 16px;
-  margin-bottom: 30px;
+  margin-top: 11px;
+  margin-bottom: 13px;
   
 }
 
 .ingridients-block h2 {
+  margin: 0;
+  padding: 0;
   font-family: YesevaOne;
   color: #ffffff;
   font-size: 36px;
@@ -193,7 +221,7 @@ h1 {
 }
 
 .ingridients-block ul {
-  margin: 0;
+  margin: 64px 0 0 0;
   padding: 0;
 }
 
@@ -275,13 +303,15 @@ h1 {
   width: 100%;
 }*/
 .food-menu p {
+  margin: 0;
+  padding: 0;
   font-family: Lato;
   color: #4c4c4c;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px; 
   text-align: left;
-  margin-bottom: 20px;
+  
 }
 
 .name-left {
@@ -306,6 +336,46 @@ h1 {
   margin-top: 10px;
 }
 
+.food-menu .discription {
+  margin-bottom: 30px;
+ 
+ }
+
+.special-border {
+  position: relative;
+  border: 1px solid #c89f2d;
+}
+
+.special-salad {
+  position: absolute;
+  padding: 1px 5px 1px 5px;
+  background-color: #c89f2d;
+  color: #ffffff;
+  top: -20px;
+  left: 371px;
+
+}
+
+.special-dish {
+  position: absolute;
+  padding: 1px 5px 1px 5px;
+  background-color: #c89f2d;
+  color: #ffffff;
+  top: 1px;
+  left: 1px;
+  top: -20px;
+  left: 371px;
+
+}
+
+.food-menu hr {
+  border: none;
+  color: #c89f2d;
+  background-color: #c89f2d;
+  height: 1px;
+}
+
+
 .reviews {
   text-align: center;
   margin: 0 auto;
@@ -315,16 +385,11 @@ h1 {
 }
 
 .reviews-block {
-  width: 602px;
-  
+  width: 602px;  
   padding: 82px 84px 103px 84px;
   margin: 0 auto;
-  border-width: 0.060000000000000005px;
-  border-color: #fbf7c0;
-  border-style: solid;
   background-color: #000000;
-  opacity: 0.8;
-  
+  opacity: 0.8;  
 }
 
 .reviews-block h2 {
@@ -368,6 +433,10 @@ h1 {
   background-image: url('../img/pattern-reservation.jpg') 
 }
 
+.reservation img {
+  margin-right: 30px;
+}
+
 .reservation-block-right {
   float: right;
   width: 417px;
@@ -386,8 +455,8 @@ h1 {
 }
 
 .divider-reservation {
-  margin-top: 8px;
-  margin-bottom: 20px;
+  margin-top: 23px;
+  margin-bottom: 32px;
 }
 
 .reservation-block-right p {
@@ -405,7 +474,7 @@ label {
   display: block;
   float: left;
   width: 50%;
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, sans-serif;
   color: #c9a131;
   font-size: 14px;
   font-weight: 700;
@@ -418,8 +487,9 @@ input {
   border-color: #c8c6c6;
   border-style: solid;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 198px;
+  width: 182px;
   height: 34px;
+  padding-left: 16px;
 }
 
 input:focus {
@@ -441,14 +511,14 @@ label:nth-child(4){
 }
 
 
-input[type="date"] {
+.date {
   background: url('../img/calendar.png') no-repeat;
-  background-position: 1px 1px;
+  background-position: 176px 10px;
 }
 
 .btn-reservation {
   margin-top: 33px;
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -462,8 +532,7 @@ input[type="date"] {
 }
 
 input::-webkit-input-placeholder {
-  margin-left: 16px;
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
@@ -471,24 +540,23 @@ input::-webkit-input-placeholder {
 }
 
 input::-moz-placeholder {
-  margin-left: 16px;
-  font-family: OpenSans;
+  
+  font-family: OpenSans, Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
   text-align: left;
 }
 input:-moz-input-placeholder {
-  margin-left: 16px;
-  font-family: OpenSans;
+  
+  font-family: OpenSans, Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
   text-align: left;
 }
 input:-ms-input-placeholder {
-  margin-left: 16px;
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
@@ -496,12 +564,133 @@ input:-ms-input-placeholder {
   
 }
 
+footer {
+  padding-top: 61px;
+  padding-bottom: 72px;
+  background-color: #191919;
 
+}
 
+.footer-block {
+  width: 1072px;
+  margin: 0 auto;
+  font-family: OpenSans, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px; 
+  line-height: 24px;
+  text-align: center;
 
+}
 
+.footer-block h3 {
+  font-family: YesevaOne;
+  color: #fefefe;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+ 
+}
 
+.about {
+  float: left;
+  width: 343px;
+  margin-right: 132px;
+  font-weight: 400;
+ 
+}
 
+.work-time {
+  width: 199px;
+  float: left;
+  margin-right: 198px;
+  font-weight: 400;
+ 
+}
+
+.work-time b{
+  font-weight: 700;
+}
+
+.work-time ul {
+  margin: 0;
+  padding: 0;
+}
+
+.work-time li {
+  display: inline-block;
+  
+}
+
+.mk {
+  width: 25px;
+  height: 15px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.paypai {
+  width: 25px;
+  height: 15px;
+  background-position: -32px 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.visa {
+  width: 25px;
+  height: 15px;
+  background-position: -64px 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.union {
+  width: 25px;
+  height: 15px;
+  background-position: -95pxx 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.location {
+  width: 200px;
+  float: left;
+  font-weight: 700;
+}
+
+.location ul {
+  margin: 0;
+  padding: 0;
+}
+
+.location li {
+  display: inline-block;  
+}
+
+.fb {
+  width: 20px;
+  height: 17px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+.youtube {
+  width: 20px;
+  height: 17px;
+  background-position: -20px 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+.twitter {
+  width: 20px;
+  height: 17px;
+  background-position: -43px 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+.instagramm {
+  width: 20px;
+  height: 17px;
+  background-position: -70px 0;
+  background-image: url('../img/sprite-icons.png')
+}
 
 
 
